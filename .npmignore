@@ -57,6 +57,10 @@ typings/
 # dotenv environment variables file
 .env
 
-dist
-dist6
+# Generated apidocs
+api-docs/
+
+# Transpiled JavaScript files from Typescript
+dist/
+dist6/
 
