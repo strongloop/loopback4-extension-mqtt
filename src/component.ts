@@ -8,7 +8,5 @@ import {Component, ProviderMap} from '@loopback/core';
 export class MqttComponent implements Component {
   constructor() {}
 
-  providers?: ProviderMap = {
-  };
-
+  providers?: ProviderMap = {};
 }

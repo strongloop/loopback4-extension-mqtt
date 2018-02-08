@@ -11,8 +11,8 @@
     "node": ">=8"
   },
   "scripts": {
-    "build": "lb-tsc",
-    "build:watch": "lb-tsc --watch",
+    "build": "lb-tsc es2017",
+    "build:watch": "lb-tsc es2017 --watch",
     "clean": "lb-clean",
     "lint": "npm run prettier:check && npm run tslint",
     "lint:fix": "npm run prettier:fix && npm run tslint:fix",
@@ -36,17 +36,14 @@
     "README.md",
     "index.js",
     "index.d.ts",
-    "dist",
-    "dist6"
+    "dist"
   ],
   "dependencies": {
-    "@loopback/context": "^4.0.0-alpha.18",
-    "@loopback/core": "^4.0.0-alpha.20"
+    "@loopback/context": "^4.0.0-alpha.31",
+    "@loopback/core": "^4.0.0-alpha.33"
   },
   "devDependencies": {
-    "@loopback/build": "^4.0.0-alpha.4",
-    "@loopback/testlab": "^4.0.0-alpha.13",
-    "@types/mocha": "^2.2.43",
-    "mocha": "^4.0.1"
+    "@loopback/build": "^4.0.0-alpha.13",
+    "@loopback/testlab": "^4.0.0-alpha.23"
   }
 }
